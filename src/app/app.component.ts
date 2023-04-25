@@ -15,7 +15,7 @@ export class AppComponent {
   apiURL: string;
 
   constructor(private http: HttpClient) {
-    this.apiURL = 'backend-todoapp-production-c274.up.railway.app'; // Cloud Link no lugar do Local Host
+    this.apiURL = 'https://backend-todoapp-7fg5.onrender.com'; // Cloud Link no lugar do Local Host
     this.READ_Tarefas();
   }
 
